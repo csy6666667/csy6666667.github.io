@@ -37,9 +37,11 @@ html,body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 100%;
-    transform: translateY(-10%);
+    position: absolute;
+    top:100px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 input[type='text'],input[type='password']{
     background-color: #fff;
