@@ -49,6 +49,7 @@ submit.addEventListener('click',function(){
     }
     else if(flag==1){
         localStorage.setItem(Id.value,password.value);
+        alert('注册成功');
     }
 })
 Id.addEventListener('input',function(){
