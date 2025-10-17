@@ -1,0 +1,120 @@
+/*清除元素默认的内外边距*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 让所有斜体不倾斜 */
+em,i{
+    font-style: normal;
+}
+/* 去掉列表前面的小点 */
+li{
+    list-style:none;
+}
+/* 图片没有边框 去掉图片底侧的空白缝隙 */
+img{
+    border: 0;
+    vertical-align: middle;
+}
+/* 让button按钮变成小手 */
+button{
+    cursor: pointer;
+}
+/* 取消链接的下划线 */
+a{
+    color: #666;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color:red
+}
+html,body{
+    height: 100%;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    height:100%;
+    justify-content: center;
+    transform: translateY(-10%);
+}
+h2{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.input{
+    width: 350px;
+    height: 120px;
+    border: 1px,solid,#9a9a9a;
+    border-radius: 5px;
+    position:relative
+}
+.input hr{
+    position: absolute;
+    box-sizing: border-box; 
+    width: 100%;
+}
+.input hr:first-of-type{
+    top:40px;
+}
+.input hr:last-of-type{
+    top:80px;
+}
+.input div{
+    height: 40px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.input div span{
+    position: absolute;
+    left:10px;
+    height: 24px;
+    width: 80px;
+}
+.input div input{
+    position: absolute;
+    left:100px;
+    width: 200px;
+    outline: none;
+    border: 0;
+    height: 24px;
+}   
+input[type='submit']{
+    width: 350px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #000;
+    color:#fff;
+    cursor: pointer;
+}
+.signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+ul span{
+    font-size: 14px;
+    color:red;
+}
+ul .error{
+    display: none;
+    margin-bottom: 7px;
+}
+ul{
+    margin-top: 10px;
+}
+.input div .req{
+    position: absolute;
+    left:101%;
+    display: inline-block;
+    width: 150px;
+    color:red;
+    font-size: 14px;
+}

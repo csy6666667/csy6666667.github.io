@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css.css">
+    </head>
+    <body>
+        <div class="login"> 
+            <h2>密码登录</h2>
+            <form>
+                <div class="input">
+                    <div>
+                        <span class="id-text">账号</span><input type="text" name="id" class="Id" placeholder="请输入账号">
+                    </div>
+                    <hr/>
+                    <div>
+                        <span class="password-text">密码</span><input type="password" name="password" class="password" placeholder="请输入密码">
+                    </div>
+                </div>
+                <div class="box">
+                    <input type="checkbox" class="remember">保存密码<a>忘记密码</a>
+                </div>
+                <ul>
+                    <li>
+                        <span class="error">请输入账号</span>
+                    </li>
+                    <li>
+                        <span class="error">账户不存在</span>
+                    </li>
+                    <li>
+                        <span class="error">请输入密码</span>
+                    </li>
+                    <li>
+                        <span class="error">账号或密码错误</span>
+                    </li>
+                    <li>
+                        <input type="submit" class="submit">
+                    </li>
+                </ul>
+            </form>
+            
+            <div class="siginup">
+                还未注册?<a href="./signup.html">去注册</a>
+            </div>
+            <div class="json"></div>
+        </div>
+        <script src="./javascript.js"></script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="signup.css">
+    </head>
+    <body>
+        <div class="signup"> 
+            <h2>注册账户</h2>
+            <from>
+                <div class="input">
+                    <div>
+                        <span>账号</span><input class="Id" type="text" placeholder="请输入账号">
+                        <span class="req">用户名至少需要6位</span>
+                    </div>
+                    <hr/>
+                    <div>
+                        <span>密码</span><input class="password" type="password" placeholder="请输入密码">
+                        <span class="req">密码至少需要8位</span>
+                    </div>
+                    <hr/>
+                    <div>
+                        <span>确认密码</span><input class="confirm" type="password" placeholder="请确认密码">
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <span class="error">请输入账号</span>
+                    </li>
+                    <li>
+                        <span class="error">请输入密码</span>
+                    </li>
+                    <li>
+                        <span class="error">请确认密码</span>
+                    </li>
+                    <li>
+                        <span class="error">两次输入密码不一致</span>
+                    </li>
+                    <li>
+                        <input class='submit' type="submit">
+                    </li>
+                </ul>
+            </from>
+            <div class="signin">
+                <span>已有账户?</span><a href="./html.html">登录</a>
+            </div>
+        </div>
+        <script src="./signup.js"></script>
+    </body>
+</html>
